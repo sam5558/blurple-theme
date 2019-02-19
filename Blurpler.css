@@ -754,15 +754,15 @@ path[d*="M19.3529746,6.6495336 C19.3529746,6.6495336 21.7924662,11.032553 21.792
 }
 
 .container-2Thooq .button-2b6hmh[style*='background-image: url("https://discordapp.com/assets/c7c47afdf35d5a3e06233319d3aa7674.svg")'] {
-    background-image: url('https://goodname69.github.io/blurple-theme/svgs/headset.svg') !important;
+    background-image: url('https://icongr.am/material/headset.svg?size=32&color=ffffff') !important;
     background-size: 60% !important;
     background-position: 55% !important;
     background-repeat: no-repeat !important;
     transition: .3s;
 }
 
-.container-2Thooq .button-2b6hmh[style*='background-image: url("https://discordapp.com/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg"))'] {
-    background-image: url('https://goodname69.github.io/blurple-theme/svgs/headset-off.svg') !important;
+.container-2Thooq .button-2b6hmh[style*='background-image: url("https://discordapp.com/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg")'] {
+    background-image: url('https://icongr.am/material/headset-off.svg?size=32&color=ffffff') !important;
     background-size: 60% !important;
     background-position: 55% !important;
     background-repeat: no-repeat !important;
@@ -1222,3 +1222,47 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     box-shadow: 0 3px 5px 0 black;
 }
 
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
+    background: var(--transparent);
+}
+
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+    background: var(--chat);
+    border-bottom: 1px solid var(--blurple);
+}
+
+.bda-dark #bda-qem button {
+    background: var(--chat);
+    transition: .2s;
+}
+
+.bda-dark #bda-qem button:hover {
+    background: var(--transparent);
+}
+
+.bda-dark #bda-qem button.active {
+    background: #202227;
+}
+
+.bda-dark .emoji-picker, .bda-dark .emojiPicker-3m1S-j {
+    background: var(--transparent);
+}
+
+.bda-dark .emoji-picker .category, .bda-dark .emojiPicker-3m1S-j .category-2U57w6 {
+    background: var(--chat);
+    border-bottom: 1px solid var(--blurple);
+}
+
+.bda-dark #bda-qem button {
+    background: var(--chat);
+    transition: .2s;
+}
+
+
+.bda-dark #bda-qem button:hover {
+    background: var(--transparent);
+}
+
+.bda-dark #bda-qem button.active {
+    background: #202227;
+}
