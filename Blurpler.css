@@ -225,19 +225,6 @@ textarea:not([class*="hljs"]):not(code) {
     filter: none;
 }
 
-.userInfoViewing-16kqK3 .flexChild-faoVW3>div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
-    filter: blur(5px);
-    transition: 500ms cubic-bezier(.2, .11, 0, 1);
-    color: var(--blurple);
-}
-
-.userInfoViewing-16kqK3 .flexChild-faoVW3>div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
-    filter: none;
-    transition: 500ms cubic-bezier(.2, .11, 0, 1);
-    color: #fff;
-    opacity: 0.7;
-}
-
 .side-8zPYf6 .itemSelected-1qLhcL {
     border-left: 3px solid var(--blurple);
     transition: .2s;
@@ -319,21 +306,6 @@ textarea:not([class*="hljs"]):not(code) {
 
 .placeholderAvatar-damqh6 {
     border-radius: 3px;
-}
-
-#bd-settings-sidebar>span>span::after,
-#bd-settings-sidebar>span>div:nth-child(3)::after {
-    padding-left: 10px;
-    display: block;
-    padding-top: 5px;
-    margin-bottom: -10px;
-    content: 'Blurpler by wasd#6784';
-    color: var(--blurple);
-}
-
-#bd-settings-sidebar>span>div:nth-child(3)::after {
-    padding-left: 0px;
-    margin-bottom: 0px;
 }
 
 .avatarHint-1qgaV3,
