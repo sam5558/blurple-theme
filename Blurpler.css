@@ -451,13 +451,13 @@ textarea:not([class*="hljs"]):not(code) {
 
 .create-3jownz .actionIcon-2IISM_ {
     -webkit-mask-size: cover;
-    -webkit-mask: url('https://goodname69.github.io/blurple-theme/svgs/create.svg') 58% no-repeat !important;
+    -webkit-mask: url('https://goodname69.github.io/blurple-theme/svgs/create.svg') 58% no-repeat !important; /*credit to devilbro for the svg*/
     background: var(--blurple) !important;
 }
 
 .join-33Tr-7 .actionIcon-2IISM_ {
     -webkit-mask-size: cover;
-    -webkit-mask: url('https://goodname69.github.io/blurple-theme/svgs/create.svg') center/cover no-repeat !important;
+    -webkit-mask: url('https://goodname69.github.io/blurple-theme/svgs/create.svg') center/cover no-repeat !important; /*credit to devilbro for the svg*/
     background: var(--blurple) !important;
 }
 
@@ -1151,4 +1151,18 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
     background: var(--transparent);
     transition: .3s;
+}
+
+/* credit to zerebos for email blur thingy */
+.userInfoViewing-16kqK3 .flexChild-faoVW3>div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj {
+    filter: blur(5px);
+    transition: 500ms cubic-bezier(.2, .11, 0, 1);
+    color: var(--blurple);
+}
+
+.userInfoViewing-16kqK3 .flexChild-faoVW3>div:nth-child(2) .viewBody-2Qz-jg.selectable-x8iAUj:hover {
+    filter: none;
+    transition: 500ms cubic-bezier(.2, .11, 0, 1);
+    color: #fff;
+    opacity: 0.7;
 }
