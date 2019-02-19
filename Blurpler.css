@@ -250,7 +250,6 @@ textarea:not([class*="hljs"]):not(code) {
     background-position: 55% !important;
     background-repeat: no-repeat !important;
     transition: .3s;
-
 }
 
 .container-2Thooq .horizontal-1ae9ci div button[style*='background-image: url("/assets/896770bf2d6ed0358ed0adefdbe96a24.svg")'] {
@@ -1166,4 +1165,50 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     transition: 500ms cubic-bezier(.2, .11, 0, 1);
     color: #fff;
     opacity: 0.7;
+}
+
+.theme-dark .quickswitcher-3JagVE {
+    background: var(--transparent);
+}
+
+.theme-dark .input-2VB9rf {
+    background: var(--chat);
+    box-shadow: 1px 1px 10px black;
+}
+
+.theme-dark .input-2VB9rf:hover {
+    background: var(--chat);
+    box-shadow: 1px 1px 15px black;
+}
+
+.theme-dark .messagesPopoutWrap-1MQ1bW {
+    background: var(--transparent);
+}
+
+.recentMentionsPopout-2fmau1 .header-3LXPrb {
+    background: var(--transparent);
+    box-shadow: 1px 1px 10px black;
+}
+
+.messagesPopoutWrap-1MQ1bW .messageGroupCozy-2iY6cT, .theme-dark .messageGroupWrapper-o-Zw7G {
+    background: var(--chat);
+}
+
+.themedPopout-25DgLi .header-SsaQ8X {
+    background: var(--transparent);
+    box-shadow: 0 3px 5px 0 black;
+}
+
+.themedPopout-25DgLi .footer-SRC48P {
+    box-shadow: 0 -3px 5px 0 black;
+    background: var(--transparent)
+}
+
+.theme-dark .container-2x5lvQ section {
+    background: var(--chat);
+}
+
+.theme-dark .container-2x5lvQ header {
+    background: var(--transparent);
+    box-shadow: 0 3px 5px 0 black;
 }
