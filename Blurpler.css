@@ -1138,3 +1138,17 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2pWH0_ {
     background: unset;
 }
+
+.ace_content {
+    background: var(--transparent);
+}
+
+.ace_gutter-layer, .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+    background: #151616;
+    box-shadow: none;
+}
+
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+    background: var(--transparent);
+    transition: .3s;
+}
