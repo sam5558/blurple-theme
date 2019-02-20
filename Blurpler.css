@@ -1036,9 +1036,15 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 }
 
 .theme-dark .jumpToPresentBar-9P20AM {
-    left: 450px;
+    left: 600px;
     right: 65px;
     background: var(--blurple);
+}
+
+.theme-dark .jumpToPresentBar-9P20AM:hover {
+    left: 600px;
+    right: 65px;
+    background: var(--hover);
 }
 
 #bd-settingspane-container .bd-pfbtn {
