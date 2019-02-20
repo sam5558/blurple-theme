@@ -339,47 +339,6 @@ textarea:not([class*="hljs"]):not(code) {
     transition: .2s;
 }
 
-/*credit to tropical for light theme breaker*/
-.theme-light .layer-3QrUeG:first-of-type::before {
-    content: "Sorry, but light theme is gay.";
-    text-align: center;
-    width: 500px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.75);
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 0 0 12px var(--transparent);
-    color: var(--blurple);
-    padding: 20px;
-    padding-bottom: 80px;
-    border-radius: 5px;
-}
-
-.app-2rEoOp.vertical-V37hAW.theme-light .container-2Thooq>.noWrap-3jynv6>.button-2b6hmh {
-    position: absolute;
-    left: 50%;
-    border-radius: 3px;
-    top: 45%;
-    transform: translate(-50%, 120%);
-    width: 180px;
-    height: 40px;
-    visibility: visible !important;
-    background: var(--blurple) !important;
-    box-shadow: 0 0 12px black;
-    opacity: 1;
-}
-
-.theme-light .layer-3QrUeG {
-    background: var(--blurple) !important;
-    background-size: cover !important;
-}
-
-.theme-light .layer-3QrUeG:first-of-type * {
-    visibility: hidden;
-}
-
 .sidebarRegionScroller-3MXcoP {
     background: var(--transparent);
 }
