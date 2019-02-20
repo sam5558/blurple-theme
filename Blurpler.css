@@ -1225,3 +1225,7 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 .bda-dark #bda-qem button.active {
     background: #202227;
 }
+
+.body-3iLsc4, .footer-1fjuF6 {
+    background: var(--transparent) !important;
+}
