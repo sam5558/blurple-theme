@@ -1,0 +1,15 @@
+/*//META{"name":"Blurpler","description":"adds even more blurple","author":"wasd#6748","version":"1"}*//**/
+
+@import url('https://goodname69.github.io/blurple-theme/Blurpler.css');
+
+:root {
+    --blurple: #7289da;
+    --chat: #1b1b1f;
+    --hover: #617de2;
+    --font: 'Nunito';
+    --fontsize: .9em;
+    --textcolor: #fff;
+    --transparent: #202225;
+    --channel: #4f545c99;
+}
+ 
