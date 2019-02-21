@@ -810,16 +810,24 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     transition: .3s;
 }
 
-.profileBadgePremium-3kZ9Qj {
-    background-image: url('discordapp.com/assets/386884eecd36164487505ddfbac35a9d.svg');
+[class*='topSection'] [class*='BadgeStaff'] {
+    background-image: url(/assets/7cfd90c8062139e4804a1fa59f564731.svg);
 }
 
-.profileBadgeHypeSquadOnlineHouse1-xN6tES {
-    background-image: url('discordapp.com/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg');
+[class*='topSection'] [class*='BadgePartner'] {
+    background-image: url(/assets/a0e288a458c48dfcf548dadc277e42e6.svg);
 }
 
-.profileBadgeHypeSquadOnlineHouse2-3jBpXR {
-    background-image: url('discordapp.com/assets/48cf0556d93901c8cb16317be2436523.svg');
+[class*='topSection'] [class*='BadgeHype'] {
+    background-image: url(/assets/0aae6033ad41cdda515a62cf72075afa.svg);
+}
+
+[class*='topSection'] [class*='BadgePremium'] {
+    background-image: url(/assets/379d2b3171722ef8be494231234da5d1.svg);
+}
+
+[class*='topSection'] [class*='BadgeEarlySupporter'] {
+    background-image: url(/assets/ce15562552e3d70c56d5408cfeed2ffd.svg);
 }
 
 .regionSelectModal-12e-57 {
@@ -1261,4 +1269,17 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 /* always empathy banana */
 .theme-dark .emptyResultsWrap-3Kv0LQ .noResultsImage-JbSWtu, .theme-dark .errorWrap-MWdRCA .noResultsImage-JbSWtu {
     background-image: url('https://discordapp.com/assets/f0a2cc54695a7064a1f02e5ca8b95ccc.svg') !important
+}
+
+.contentSelectedText-3wUhMi {
+    transition: .2s;
+}
+
+.attachButtonPlay-ZnFdQr {
+    color: var(--blurple);
+}
+
+.theme-dark .guildsAdd-21_IdK.selected-ML3OIq {
+    border-color: var(--hover);
+    color: var(--hover)
 }
