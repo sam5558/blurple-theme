@@ -12,3 +12,19 @@
     --transparent: #202225;
     --channel: #4f545c99;
 }
+
+.container-2Thooq .button-2b6hmh[style*='background-image: url("/assets/c7c47afdf35d5a3e06233319d3aa7674.svg")'] {
+    background-image: url('https://icongr.am/material/headset.svg?size=32&color=ffffff') !important;
+    background-size: 60% !important;
+    background-position: 55% !important;
+    background-repeat: no-repeat !important;
+    transition: .3s;
+}
+
+.container-2Thooq .button-2b6hmh[style*='background-image: url("/assets/c8845c514bbf3f1e5bea064c1e40b08d.svg")'] {
+    background-image: url('https://icongr.am/material/headset-off.svg?size=32&color=ffffff') !important;
+    background-size: 60% !important;
+    background-position: 55% !important;
+    background-repeat: no-repeat !important;
+    transition: .3s;
+}
