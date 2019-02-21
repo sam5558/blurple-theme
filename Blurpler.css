@@ -811,23 +811,23 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 }
 
 [class*='topSection'] [class*='BadgeStaff'] {
-    background-image: url(/assets/7cfd90c8062139e4804a1fa59f564731.svg);
+    background-image: url('https://discordapp.com/assets/7cfd90c8062139e4804a1fa59f564731.svg');
 }
 
 [class*='topSection'] [class*='BadgePartner'] {
-    background-image: url(/assets/a0e288a458c48dfcf548dadc277e42e6.svg);
+    background-image: url('https://discordapp.com/assets/a0e288a458c48dfcf548dadc277e42e6.svg');
 }
 
 [class*='topSection'] [class*='BadgeHype'] {
-    background-image: url(/assets/0aae6033ad41cdda515a62cf72075afa.svg);
+    background-image: url('https://discordapp.com/assets/0aae6033ad41cdda515a62cf72075afa.svg');
 }
 
 [class*='topSection'] [class*='BadgePremium'] {
-    background-image: url(/assets/379d2b3171722ef8be494231234da5d1.svg);
+    background-image: url('https://discordapp.com/assets/379d2b3171722ef8be494231234da5d1.svg');
 }
 
 [class*='topSection'] [class*='BadgeEarlySupporter'] {
-    background-image: url(/assets/ce15562552e3d70c56d5408cfeed2ffd.svg);
+    background-image: url('https://discordapp.com/assets/ce15562552e3d70c56d5408cfeed2ffd.svg');
 }
 
 .regionSelectModal-12e-57 {
