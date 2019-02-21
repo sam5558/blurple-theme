@@ -810,39 +810,39 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     transition: .3s;
 }
 
-.profileBadgeStaff-13GO7z {
+[class*=topSection] .profileBadgeStaff-13GO7z {
     background-image: url('https://discordapp.com/assets/7cfd90c8062139e4804a1fa59f564731.svg');
 }
 
-.profileBadgePartner-SjK6L2 {
+[class*=topSection] .profileBadgePartner-SjK6L2 {
     background-image: url('https://discordapp.com/assets/a0e288a458c48dfcf548dadc277e42e6.svg');
 }
 
-.profileBadgeHypeSquadOnlineHouse3-1YbjMX {
+[class*=topSection] .profileBadgeHypeSquadOnlineHouse3-1YbjMX {
     background-image: url('https://discordapp.com/assets/2a085ed9c86f3613935a6a8667ba8b89.svg');
 }
 
-.profileBadgeHypeSquadOnlineHouse2-3jBpXR {
+[class*=topSection] .profileBadgeHypeSquadOnlineHouse2-3jBpXR {
     background-image: url('https://discordapp.com/assets/d3478c6bd5cee0fc600e55935ddc81aa.svg');
 }
 
-.profileBadgeHypeSquadOnlineHouse1-xN6tES {
+[class*=topSection] .profileBadgeHypeSquadOnlineHouse1-xN6tES {
     background-image: url('https://discordapp.com/assets/1115767aed344e96a27a12e97718c171.svg')
 }
 
-.profileBadgePremium-3kZ9Qj {
+[class*=topSection] .profileBadgePremium-3kZ9Qj {
     background-image: url('https://discordapp.com/assets/379d2b3171722ef8be494231234da5d1.svg');
 }
 
-.profileBadgeEarlySupporter-PQB_0a {
+[class*=topSection] .profileBadgeEarlySupporter-PQB_0a {
     background-image: url('https://discordapp.com/assets/ce15562552e3d70c56d5408cfeed2ffd.svg');
 }
 
-.profileBadgeBugHunter-IV0vLE {
+[class*=topSection] .profileBadgeBugHunter-IV0vLE {
     background-image: url('https://discordapp.com/assets/df26f079738a4dcd07cbce6eb3c957f1.svg')
 }
 
-.profileBadgeHypesquad-1YIe7Z {
+[class*=topSection] .profileBadgeHypesquad-1YIe7Z {
     background-image: url('https://discordapp.com/assets/3a050fcc884255231b99b7033c776070.svg')
 }
 
