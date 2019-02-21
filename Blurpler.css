@@ -1055,7 +1055,6 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     background: var(--hover)
 }
 
-
 .membersWrap-2h-GB4 {
     width: 55px;
     min-width: 0px;
@@ -1076,7 +1075,6 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 .members-1998pB:hover .membersGroup-v9BXpm {
     color: #99aab5;
 }
-
 
 .theme-dark .autocomplete-1vrmpx .searchBar-1MOL6S {
     background: var(--chat);
@@ -1234,4 +1232,29 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 
 .body-3iLsc4, .footer-1fjuF6 {
     background: var(--transparent) !important;
+}
+
+.popout-2fzvxG, .profile-ZOdGIb {
+    -webkit-mask: 0%;
+}
+
+.avatarUploaderInner-3UNxY3 .fileInput-23-d-3, .avatarUploaderInner-3UNxY3 {
+    border-radius: 3px !important;
+}
+
+.theme-dark .avatarUploaderIndicator-2G-aIZ {
+    background-color: var(--blurple);
+}
+
+.required-7sPBq3 {
+    color: var(--blurple)
+}
+
+.popout-2fzvxG, .profile-ZOdGIb {
+    border-radius: 3px;
+}
+
+.avatarHint-1qgaV3 {
+    border-radius: 3px;
+    -webkit-mask: 100%;
 }
