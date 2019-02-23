@@ -479,26 +479,6 @@ textarea:not([class*="hljs"]):not(code) {
     border-color: var(--hover);
 }
 
-.spoiler-1PPAUc.hiddenSpoilers-1ksnR6 {
-    filter: blur(0);
-}
-
-.spoilerWarning-2aAZq1 {
-    display: none;
-}
-
-.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9,
-.theme-dark .spoilerText-3p6IlD.hidden-HHr2R9:hover {
-    background-color: var(--blurple);
-    border-radius: 0px;
-    cursor: text;
-}
-
-.spoilerText-3p6IlD.hidden-HHr2R9 .inlineContent-3ZjPuv {
-    opacity: 1;
-    cursor: text;
-}
-
 .theme-dark .autocomplete-1vrmpx {
     background: var(--transparent) !important;
 }
