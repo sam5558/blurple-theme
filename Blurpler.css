@@ -173,7 +173,9 @@ textarea:not([class*="hljs"]):not(code) {
     background: var(--blurple);
     width: auto;
     height: 20px;
-    border-radius: 5px;
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px
 }
 
 .theme-dark .base-gE7OpD .ellipsis-19qdx6 .spinnerItem-2HfQC8 {
