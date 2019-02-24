@@ -1003,7 +1003,6 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     background: inherit;
 }
 
-
 .gifFavoriteButton-2UvP3Q {
     color: var(--blurple);
 }
@@ -1289,4 +1288,30 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 .theme-dark .guildsAdd-21_IdK.selected-ML3OIq {
     border-color: var(--hover);
     color: var(--hover)
+}
+
+.theme-dark .activityFeed-1C0EmJ {
+    background: var(--chat);
+}
+
+.theme-dark .outer-2IVh5n {
+    background: var(--transparent);
+    transition: .3s;
+}
+
+.theme-dark .activityFeed-1C0EmJ .popoutContainer-3WC9HR:hover {
+    background: #151616;
+    transition: .3s;
+}
+
+.theme-dark .activityFeed-1C0EmJ .popoutContainer-3WC9HR {
+    transition: .3s;
+}
+
+.activityFeed-1C0EmJ .popout-3G62UL {
+    background: #151616;
+}
+
+.theme-dark .activityFeed-1C0EmJ .placeholderWrapper-3FaLtZ {
+    background: var(--transparent)
 }
