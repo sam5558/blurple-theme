@@ -1323,3 +1323,39 @@ path[d*="M20 13H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-
 path[d*="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"] {
     fill: var(--blurple)
 }
+
+.mention-1f5kbO {
+    background: var(--blurple);
+    transition: .3s;
+}
+
+.mention-1f5kbO:hover {
+    background: var(--hover);
+}
+
+.errorPage-u8SYh4 {
+    background-image: url('https://i.kym-cdn.com/news_feeds/icons/mobile/000/030/795/d0c.jpg');
+    color: transparent;
+}
+
+.errorPage-u8SYh4 p {
+    color: transparent
+}
+
+.errorPage-u8SYh4 .image-3zK3Wt {
+    display: none;
+}
+
+.errorPage-u8SYh4 .button-38aScr {
+    top: -275px;
+    border-radius: 10px;
+} 
+
+.errorPage-u8SYh4 .button-38aScr:hover {
+    top: -275px;
+} 
+
+.errorPage-u8SYh4 .lookFilled-1Gx00P.colorBrand-3pXr91 {
+    width: 300px !important;
+    height: 100px !important;
+}
