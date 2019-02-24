@@ -750,6 +750,15 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     transition: .3s;
 }
 
+.theme-dark #bd-settingspane-container .editIcon {
+    color: var(--blurple) !important;
+    transition: .3s;
+}
+
+.theme-dark #bd-settingspane-container .editIcon:hover {
+    color: var(--hover) !important;
+}
+
 .bda-slist .bda-footer button:hover {
     background: var(--hover)
 }
