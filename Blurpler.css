@@ -1313,5 +1313,13 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 }
 
 .theme-dark .activityFeed-1C0EmJ .placeholderWrapper-3FaLtZ {
-    background: var(--transparent)
+    background: var(--transparent);
+}
+
+path[d*="M20 13H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1v-6c0-.55-.45-1-1-1zM7 19c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zM20 3H4c-.55 0-1 .45-1 1v6c0 .55.45 1 1 1h16c.55 0 1-.45 1-1V4c0-.55-.45-1-1-1zM7 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"] {
+    fill: var(--blurple);
+}
+
+path[d*="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"] {
+    fill: var(--blurple)
 }
