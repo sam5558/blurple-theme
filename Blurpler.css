@@ -1392,3 +1392,10 @@ path[d*="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"] {
     background: var(--chat);
 }
 
+.root-SR8cQa {
+    width: 850px;
+}
+
+[style*='/icons/153708594091655168/'] {
+    background-image: url('https://discordapp.com/assets/ced0c08553c2ade6cbeee29a40f4ac8c.svg')!important;
+}
