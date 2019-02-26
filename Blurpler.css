@@ -920,18 +920,6 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     border: 2px solid black;
 }
 
-.tooltip-1OS-Ti {
-    border-radius: 5px;
-    background: var(--hover) !important;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5) !important;
-    animation: .2s fadetop linear;
-}
-
-.da-tooltip:after,
-.tooltip-1OS-Ti.black-2bmmnj:after {
-    display: none;
-}
-
 .role-2irmRk {
     border-radius: 3px;
 }
@@ -949,7 +937,44 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
     border-radius: 0px !important;
 }
 
-@keyframes fadetop {0% {opacity: 0;transform: translateY(-50%);}100% {opacity: 0.9;transform: none;}}
+.tooltip.tooltip-top {
+	animation: fadetop 150ms;
+}
+.tooltips .tooltip.tooltip-right {
+	animation: faderight 150ms;
+}
+.tooltips .tooltip.tooltip-bottom {
+	animation: fadebottom 150ms;
+}
+.tooltips .tooltip.tooltip-left {
+	animation: fadeleft 150ms;
+}
+.tooltip.tooltip-top {
+	animation: fadetop 150ms;
+}
+
+@keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9;transform: none;}}
+
+@keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9;transform: none;}}
+
+@keyframes fadebottom {0% {opacity: 0;transform: translateY(50%);}100% {opacity: 0.9; transform: none;}}
+
+.da-tooltip.da-tooltipTop, .bd-tooltip[x-placement^='top'] {animation: fadetop 150ms;}
+.da-tooltips .da-tooltip.da-right, .bd-tooltip[x-placement^='right'] {animation: faderight 150ms;}
+.da-tooltips .da-tooltip.da-bottom, .bd-tooltip[x-placement^='bottom'] {animation: fadebottom 150ms;}
+.da-tooltips .da-tooltip.da-left, .bd-tooltip[x-placement^='left'] {animation: fadeleft 150ms;}
+.da-tooltip.da-top {animation: fadetop 150ms;}
+.da-tooltips .da-tooltip,
+.bd-tooltip {
+    background: var(--hover) !important;
+    box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
+    border-radius: 5px;
+}
+.da-tooltip:after,
+.tooltip-1OS-Ti.black-2bmmnj:after,
+.bd-tooltipArrow {
+	display: none;
+}
 
 .option-96V44q.selected-rZcOL-:after {
     width: 0px;
@@ -1359,3 +1384,8 @@ path[d*="M5 13h14v-2H5v2zm-2 4h14v-2H3v2zM7 7v2h14V7H7z"] {
     width: 300px !important;
     height: 100px !important;
 }
+
+.customContainer-1RHXqt {
+    background: var(--chat);
+}
+
