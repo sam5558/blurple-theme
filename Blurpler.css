@@ -953,6 +953,8 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 	animation: fadetop 150ms;
 }
 
+@keyframes fadetop {0% {opacity: 0;transform: translateY(-50%);}100% {opacity: 0.9;transform:none;}}
+
 @keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9;transform: none;}}
 
 @keyframes faderight {0% {opacity: 0;transform: translateX(50%);}100% {opacity: 0.9;transform: none;}}
@@ -968,8 +970,9 @@ path[d*="M1,14.1538462 L1.95,14.1538462 C3.73125,14.1538462 5.5125,13.5384615 6.
 .bd-tooltip {
     background: var(--hover) !important;
     box-shadow:0px 0px 20px rgba(0,0,0,0.5) !important;
-    border-radius: 5px;
+    border-radius: 5px !important;
 }
+
 .da-tooltip:after,
 .tooltip-1OS-Ti.black-2bmmnj:after,
 .bd-tooltipArrow {
